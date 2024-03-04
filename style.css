@@ -1,34 +1,58 @@
-header{
-  display: flex;  
-background-color: lightslategrey;
-justify-content: space-between;
-
-
-
-
+html{
+  height: 100%;
+  width: 100%;
 }
-.header-content{
+header{
+  background-color: lightslategrey;
+display: flex;
+justify-content: space-between;
+}
+div{
 display: flex;
 flex-direction: row;
-align-items: center;
-gap:20px;
+margin-left: 20px;
 }
 ul{
-display: flex;
-list-style: none;
-flex-direction:row;
-gap:10px;
-align-items: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
-.header-photo {
-width: 140px;
-height: 140px;
+img{
+  margin: 15px;
+}
+.my-photo{
+width: 90px;
+height: 90px;
 border-radius: 50%;
-border:2px solid black;
-
+border: 3px solid gray;
 }
-
-
-
-
+p{
+  font-size: 20px;
+font-style: italic;
+font-family: fantasy;
+margin-top: 50px;
+}
+.about-porshe{
+background-color: darkgrey;
+}
+.porshes{
+  background-color: lightslategrey;
+}
+.expensive-porshe{
+  background-color: darkgrey;
+}
+.about-porshe-title{
+text-align: center;
+font-size: 24px;
+text-transform: uppercase;
+color: black;
+font-family: fantasy;
+font-weight: 400;
+}
+.porshe-link{
+background-color: cadetblue;
+border-radius: 10px;
+}
+.footer-text{
+  background-color: cadetblue;
 }
