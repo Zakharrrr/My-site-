@@ -1,8 +1,12 @@
-html{
-  height: 100%;
-  width: 100%;
+.body{
+  margin: 0;
+}
+h1,h2,h3,p,ul{
+  margin: 0;
+  padding: 0;
 }
 header{
+ margin: 0 auto;
   background-color: lightslategrey;
 display: flex;
 justify-content: space-between;
@@ -11,6 +15,7 @@ div{
 display: flex;
 flex-direction: row;
 margin-left: 20px;
+
 }
 ul{
   display: flex;
@@ -31,19 +36,32 @@ p{
 font-style: italic;
 font-family: fantasy;
 margin-top: 50px;
+text-align: center;
+
+}
+h2{
+  font-size: 20px;
+font-style: italic;
+font-family: fantasy;
+margin-top: 50px;
+text-align: center;
 }
 .about-porshe{
 background-color: darkgrey;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 .porshes{
   background-color: lightslategrey;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .expensive-porshe{
   background-color: darkgrey;
 }
 .about-porshe-title{
 text-align: center;
-font-size: 24px;
+font-size: 33px;
 text-transform: uppercase;
 color: black;
 font-family: fantasy;
@@ -51,8 +69,10 @@ font-weight: 400;
 }
 .porshe-link{
 background-color: cadetblue;
-border-radius: 10px;
+border-radius: 3cm;
+display: block;
 }
 .footer-text{
   background-color: cadetblue;
+  text-align: center;
 }
