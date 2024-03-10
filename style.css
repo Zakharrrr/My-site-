@@ -60,6 +60,8 @@ padding-bottom: 20px;
 .expensive-porshe{
   background-color: darkgrey;
   padding-top: 30px;
+  justify-content: space-around;
+  margin: 0 auto;
   padding-bottom: 50px;
 }
 .about-porshe-title{
@@ -73,9 +75,9 @@ font-weight: 400;
 .porshe-link{
 background-color: rgb(59, 86, 87);
 border-radius: 3cm;
-margin-left: 0 auto;
-margin-right: 0 auto;
+margin: 15px;
 width: 30%;
+
 }
 a{
   font-size: 20px;
